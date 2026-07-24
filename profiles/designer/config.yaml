@@ -1,0 +1,18 @@
+# Designer Profile
+memory:
+  provider: hindsight
+
+default_provider: custom:gemini
+default_model: gemini-3.5-flash
+
+custom_providers:
+  custom:gemini:
+    api_key: AIzaSyA4DUiI0R9nLqymaFu1uQ9fCYgUdvy_mOg
+    base_url: https://generativelanguage.googleapis.com
+    api_mode: chat_completions
+
+toolsets:
+  - hermes-cli
+  - web
+  - file
+  - terminal

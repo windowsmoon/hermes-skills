@@ -1,0 +1,240 @@
+model:
+  default: gemini-3.5-flash
+  provider: custom:gemini
+auxiliary:
+  vision:
+    provider: custom:gemini
+    model: gemini-3.5-flash
+    timeout: 120
+display:
+  bell_on_complete: true
+  show_reasoning: true
+  streaming: true
+  show_cost: true
+  notify_on_complete: true
+memory:
+  memory_enabled: true
+  user_profile_enabled: true
+  memory_char_limit: 40000
+  user_char_limit: 40000
+  provider: hindsight
+moa:
+  default_preset: Mind-Daily
+  active_preset: ''
+  presets:
+    Mind-Daily:
+      enabled: true
+      reference_models:
+      - provider: custom:183399
+        model: qwen3.7-plus
+      - provider: custom:183399
+        model: deepseek-v4-pro
+      - provider: custom:183399
+        model: glm-5.2
+      - provider: custom:topapi
+        model: MiniMax-M3
+      - provider: custom:心流grop
+        model: gpt-5.5
+      aggregator:
+        provider: custom:183399
+        model: deepseek-v4-flash
+      reference_temperature: 0.6
+      aggregator_temperature: 0.4
+      max_tokens: 4096
+command_allowlist:
+- execute_code
+- shell command via -c/-lc flag
+- script execution via -e/-c flag
+onboarding:
+  seen:
+    profile_build_offered: true
+    busy_input_prompt: true
+_config_version: 32
+mcp_servers:
+  hermes-studio-api:
+    command: C:\Users\Admin\.hermes-web-ui\desktop-runtime\hermes\0.19.0\win-x64\node\node.exe
+    args:
+    - C:\Users\Admin\.hermes-web-ui\desktop-runtime\webui\0.6.32\bin\hermes-studio-mcp.mjs
+    - api
+    env:
+      HERMES_WEB_UI_URL: http://127.0.0.1:8748
+      HERMES_WEB_UI_HOME: C:\Users\Admin\.hermes-web-ui
+      HERMES_WEBUI_STATE_DIR: C:\Users\Admin\.hermes-web-ui
+      HERMES_WEB_UI_PROFILE: default
+      HERMES_MCP_SERVER_NAME: hermes-studio-api
+      HERMES_MCP_TOOLSET: api
+      HERMES_WEB_UI_MANAGED_MCP: '1'
+    enabled: true
+  hermes-studio-devices:
+    command: C:\Users\Admin\.hermes-web-ui\desktop-runtime\hermes\0.19.0\win-x64\node\node.exe
+    args:
+    - C:\Users\Admin\.hermes-web-ui\desktop-runtime\webui\0.6.32\bin\hermes-studio-mcp.mjs
+    - devices
+    env:
+      HERMES_WEB_UI_URL: http://127.0.0.1:8748
+      HERMES_WEB_UI_HOME: C:\Users\Admin\.hermes-web-ui
+      HERMES_WEBUI_STATE_DIR: C:\Users\Admin\.hermes-web-ui
+      HERMES_WEB_UI_PROFILE: default
+      HERMES_MCP_SERVER_NAME: hermes-studio-devices
+      HERMES_MCP_TOOLSET: devices
+      HERMES_WEB_UI_MANAGED_MCP: '1'
+    enabled: true
+  hermes-studio-use:
+    command: C:\Users\Admin\.hermes-web-ui\desktop-runtime\hermes\0.19.0\win-x64\node\node.exe
+    args:
+    - C:\Users\Admin\.hermes-web-ui\desktop-runtime\webui\0.6.32\bin\hermes-studio-mcp.mjs
+    - use
+    env:
+      HERMES_WEB_UI_URL: http://127.0.0.1:8748
+      HERMES_WEB_UI_HOME: C:\Users\Admin\.hermes-web-ui
+      HERMES_WEBUI_STATE_DIR: C:\Users\Admin\.hermes-web-ui
+      HERMES_WEB_UI_PROFILE: default
+      HERMES_MCP_SERVER_NAME: hermes-studio-use
+      HERMES_MCP_TOOLSET: use
+      HERMES_WEB_UI_MANAGED_MCP: '1'
+    enabled: true
+  sequential-thinking:
+    command: npx
+    args:
+    - -y
+    - '@modelcontextprotocol/server-sequential-thinking'
+    enabled: true
+  open-websearch:
+    args:
+    - -y
+    - open-websearch
+    command: npx
+    enabled: true
+  tabbit-browser:
+    args:
+    - C:\Users\Admin\Developer\tabbit-browser\mcp-server.js
+    command: C:\Users\Admin\.hermes-web-ui\desktop-runtime\hermes\0.19.0\win-x64\node\node.exe
+    enabled: true
+    env:
+      TABBIT_CDP_TIMEOUT: '60000'
+      TABBIT_PORT: '9222'
+  trendradar-mcp:
+    args: []
+    command: C:\Users\Admin\Developer\TrendRadar\.venv\Scripts\trendradar-mcp.exe
+    enabled: true
+  mijia-api:
+    args:
+    - mijiaAPI
+    - mcp
+    command: uvx
+    enabled: true
+  apify-mcp:
+    command: npx
+    args:
+    - -y
+    - '@apify/actors-mcp-server'
+    env:
+      APIFY_TOKEN: ***
+    enabled: true
+  playwright-mcp:
+    command: npx
+    args:
+    - -y
+    - '@playwright/mcp'
+    enabled: true
+  computer-control-mcp:
+    command: node
+    args:
+    - C:\Users\Admin\AppData\Roaming\npm\node_modules\computer-control-mcp\dist\index.js
+    enabled: true
+  zhihu-search:
+    args: []
+    command: C:\Users\Admin\.hermes\zhihu-search-mcp.bat
+    enabled: true
+custom_providers:
+- name: '183399'
+  base_url: https://api.183399.xyz/v1
+  api_key: sk-1a1bda2f842562ad7361cc24b2e24d16852577771da119592d93587018946d44
+  model: deepseek-v4-flash
+  api_mode: chat_completions
+- name: qwen-vl
+  base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+  api_key: sk-325662f42be24e558aa8a00bf89cd3b1
+  model: qwen3-vl-plus
+  api_mode: chat_completions
+- name: 心流grop
+  base_url: https://api.xinliu.one/v1
+  api_key: sk-jDRslt0kupSc7zgHGPkbTuqG2FPnFyznmqpgntGLzq2N9z2L
+  model: gpt-5.5
+  api_mode: chat_completions
+- name: videogen
+  base_url: https://api.xinliu.one/v1
+  api_key: sk-jDRslt0kupSc7zgHGPkbTuqG2FPnFyznmqpgntGLzq2N9z2L
+  model: grok-imagine-video-1.5-fast
+  api_mode: chat_completions
+- name: agnes
+  base_url: https://apihub.agnes-ai.com/v1
+  api_key: sk-aRaMPB65192Taa3ONmapWeMM1xHzZo7U1IBSaRWCpGviHZM6
+  model: agnes-2.0-flash
+  api_mode: chat_completions
+- name: longcat.chat
+  base_url: https://api.longcat.chat/openai/v1
+  api_key: ak_2n52iX4TN44b6PF3Um46X7WX6tF40
+  model: LongCat-2.0
+  api_mode: chat_completions
+  models:
+    LongCat-2.0:
+      context_length: 1024000
+- name: sensetime-tokenplan
+  base_url: https://token.sensenova.cn/v1
+  api_key: sk-ojZKScGNyspHDgoq7xFGOGxotd2PoO7g
+  model: deepseek-v4-flash
+  api_mode: chat_completions
+  models:
+    deepseek-v4-flash:
+      context_length: 1024000
+- name: gemini
+  base_url: https://generativelanguage.googleapis.com
+  api_key: AIzaSyA4DUiI0R9nLqymaFu1uQ9fCYgUdvy_mOg
+  model: gemini-3.5-flash
+multiplex_profiles: true
+web_providers:
+  tavily:
+    api_key: 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
+    enabled: true
+  exa:
+    api_key: 67cc607e-cf49-47da-bec8-087c05488bb5
+    enabled: true
+  firecrawl:
+    api_key: fc-b2fe46155b404f24b30be04d233181f2
+    enabled: true
+plugins:
+  alibaba-provider:
+    api_key: ms-6fe8bab9-a928-4281-922a-79da3305c294
+  xiaomi-provider:
+    api_key: sk-crx6w6yy0388r0tg9xhhcfei1l53ckd1cd2esyz3h1p96a1j
+  enabled:
+  - browser/firecrawl
+  - disk-cleanup
+  - security-guidance
+  disabled: []
+gateway:
+  platforms:
+    qqbot:
+      enabled: true
+      extra:
+        app_id: '1904979924'
+        client_secret: bot:v1_Rpgy-M5DBLKUGkm4qdigU_a0sxFXSWrxMDr94g91ykHBBWAB49uYNecctyw6A_JarujUsVw0wpo-uOTSjjswVu-kJmGCpgHSLkkRfA9ue_7W
+        markdown_support: true
+        dm_policy: allowlist
+    wecom:
+      enabled: true
+      extra:
+        bot_id: aibmZNHLk4PBJ3gawTCqmC7C50DD04-_0Qu
+        secret: 47t9L5jMLkt991qKBE3t6yXGL5hIKZq5ojewmMkABi4
+        home_channel: null
+delegation:
+  max_spawn_depth: 9999
+  max_concurrent_children: 9999
+  orchestrator_enabled: true
+hindsight:
+  bank_id: hermes
+  mode: local_embedded
+skills:
+  external_dirs:
+  - '"D:\hermes-skills"'

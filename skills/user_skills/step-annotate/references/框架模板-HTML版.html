@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>截图标注框架</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: "Microsoft YaHei", sans-serif; background: #1a1a2e; color: #eee; padding: 20px; max-width: 900px; margin: auto; }
+  h1 { color: #ff6b35; margin-bottom: 10px; }
+  .desc { color: #999; margin-bottom: 20px; }
+  #cards { display: flex; flex-direction: column; gap: 20px; }
+  .card { background: #16213e; border: 1px solid #333; border-radius: 12px; padding: 16px; position: relative; }
+  .card .step { color: #ff6b35; font-weight: bold; font-size: 14px; margin-bottom: 8px; }
+  .card .img-area { min-height: 200px; border: 2px dashed #555; border-radius: 8px; display: flex; align-items: center; justify-content: center; cursor: pointer; position: relative; overflow: hidden; margin-bottom: 10px; }
+  .card .img-area img { max-width: 100%; max-height: 400px; display: block; }
+  .card .img-area .placeholder { color: #666; font-size: 14px; }
+  .card label { display: block; font-size: 12px; color: #aaa; margin: 6px 0 2px; }
+  .card input, .card textarea { width: 100%; background: #0f3460; border: 1px solid #444; color: #eee; padding: 6px 10px; border-radius: 6px; font-size: 13px; }
+  .card textarea { resize: vertical; min-height: 40px; }
+  .btn { background: #ff6b35; color: #fff; border: none; padding: 8px 20px; border-radius: 6px; cursor: pointer; font-size: 14px; margin-top: 10px; }
+  .btn:hover { background: #e85d2a; }
+  #addBtn { background: #333; margin-right: 8px; }
+  #exportBtn { background: #0f3460; margin-left: 8px; margin-bottom: 20px; }
+  .toolbar { margin: 16px 0; display: flex; gap: 8px; flex-wrap: wrap; }
+  .delete-btn { position: absolute; top: 8px; right: 8px; background: #e74c3c; color: #fff; border: none; border-radius: 50%; width: 24px; height: 24px; cursor: pointer; font-size: 12px; line-height: 24px; text-align: center; }
+  .delete-btn:hover { background: #c0392b; }
+</style>
+</head>
+<body>
+<h1>📸 截图标注框架</h1>
+<p class="desc">拖拽图片到方块区域，填写每张图的标注信息。完成后点「导出配置」我就能处理。</p>
+
+<div class="toolbar">
+  <button class="btn" id="addBtn" onclick="addCard()">＋ 添加一张图</button>
+  <button class="btn" id="exportBtn" onclick="exportConfig()">📥 导出配置</button>
+</div>
+
+<div id="cards">
+  <!-- 默认 3 张卡片 -->
+</div>
+
+<script>
+let cardCount = 0;
+
+function addCard(imgDataUrl, fileName) {
+  cardCount++;
+  const cards = document.getElementById('cards');
+  const card = document.createElement('div');
+  card.className = 'card';
+  card.dataset.index = cardCount;
+  card.innerHTML = `
+    <button class="delete-btn" onclick="this.parentElement.remove()">×</button>
+    <div class="step">第 ${cardCount} 张图</div>
+    <div class="img-area" onclick="document.getElementById('fileInput').click()">
+      ${imgDataUrl ? `<img src="${imgDataUrl}">` : '<span class="placeholder">点击或拖拽图片到这里</span>'}
+    </div>
+    <input type="file" accept="image/*" style="display:none" onchange="loadImage(this, event)">
+    <label>画面说明（这张图是什么界面？）</label>
+    <input class="desc-input" placeholder="如：Midjourney 首页">
+    <label>需要框住的区域</label>
+    <input class="region-input" placeholder="如：顶部输入框 / 左侧面板第3项">
+    <label>标注文字</label>
+    <textarea class="text-input" placeholder="如：输入 /imagine prompt"></textarea>
+  `;
+  cards.appendChild(card);
+
+  // 拖拽支持
+  const area = card.querySelector('.img-area');
+  area.addEventListener('dragover', e => { e.preventDefault(); area.style.borderColor = '#ff6b35'; });
+  area.addEventListener('dragleave', e => { area.style.borderColor = '#555'; });
+  area.addEventListener('drop', e => {
+    e.preventDefault();
+    area.style.borderColor = '#555';
+    const file = e.dataTransfer.files[0];
+    if (file && file.type.startsWith('image/')) {
+      const reader = new FileReader();
+      reader.onload = (ev) => {
+        area.innerHTML = `<img src="${ev.target.result}">`;
+        area.dataset.dataUrl = ev.target.result;
+      };
+      reader.readAsDataURL(file);
+    }
+  });
+}
+
+function loadImage(input, event) {
+  const file = input.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    const area = input.parentElement.querySelector('.img-area');
+    area.innerHTML = `<img src="${e.target.result}">`;
+    area.dataset.dataUrl = e.target.result;
+  };
+  reader.readAsDataURL(file);
+}
+
+function exportConfig() {
+  const cards = document.querySelectorAll('.card');
+  const output = { images: {}, style: { box_color: [255, 69, 0], box_width: 3, font_size: 16 } };
+  let step = 0;
+  cards.forEach(card => {
+    const imgArea = card.querySelector('.img-area img');
+    const desc = card.querySelector('.desc-input').value.trim();
+    const region = card.querySelector('.region-input').value.trim();
+    const text = card.querySelector('.text-input').value.trim();
+    if (!imgArea) return;
+    // Generate a placeholder image path - user needs to save images first
+    const imgPath = prompt(`第 ${step + 1} 张图的实际文件路径是什么？\n（截图已嵌入此页面，请先保存为文件，再填入路径）`);
+    if (!imgPath) return;
+    step++;
+    if (!output.images[imgPath]) output.images[imgPath] = [];
+    output.images[imgPath].push({
+      number: step,
+      text: text || desc || region,
+      x: 0, y: 0, width: 0, height: 0,
+      output_name: `步骤${step}-${(text || desc || region).slice(0, 20)}`,
+      note: `${desc} | 区域：${region}`
+    });
+  });
+  const json = JSON.stringify(output, null, 2);
+  // 下载 JSON
+  const blob = new Blob([json], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'annotations.json';
+  a.click();
+  alert('配置文件已下载！请把它交给 Hermes Agent 处理。');
+}
+
+// 初始化默认 3 张
+for (let i = 0; i < 3; i++) addCard();
+</script>
+</body>
+</html>

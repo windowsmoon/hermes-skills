@@ -1,0 +1,1906 @@
+{
+  "version": "1.0",
+  "description": "User-managed non-bundled skills registry",
+  "skills": [
+    {
+      "name": "agently-mail",
+      "description": ">",
+      "status": "active",
+      "origin": "agently-mail/agently-mail",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.365646",
+      "last_updated": "2026-07-22T18:45:25.632366"
+    },
+    {
+      "name": "aippt-skill",
+      "description": ">",
+      "status": "active",
+      "origin": "aippt-skill/aippt-skill",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.368455",
+      "last_updated": "2026-07-22T18:45:25.632366"
+    },
+    {
+      "name": "ai-model-evaluation",
+      "description": "",
+      "status": "active",
+      "origin": "content/ai-model-evaluation",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.369683",
+      "last_updated": "2026-07-22T18:45:25.649829"
+    },
+    {
+      "name": "douyin-video-pipeline",
+      "description": ">",
+      "status": "active",
+      "origin": "content/douyin-video-pipeline",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.370875",
+      "last_updated": "2026-07-22T18:45:25.653218"
+    },
+    {
+      "name": "edrawmind-mindmap",
+      "description": ">",
+      "status": "active",
+      "origin": "content/edrawmind-mindmap",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.371888",
+      "last_updated": "2026-07-22T18:45:25.668620"
+    },
+    {
+      "name": "fashion-video-pipeline",
+      "description": ">",
+      "status": "active",
+      "origin": "content/fashion-video-pipeline",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.372971",
+      "last_updated": "2026-07-22T18:45:25.668620"
+    },
+    {
+      "name": "get-the-news",
+      "description": "",
+      "status": "active",
+      "origin": "content/get-the-news",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.373591",
+      "last_updated": "2026-07-22T18:45:25.680118"
+    },
+    {
+      "name": "smart-video",
+      "description": ">",
+      "status": "active",
+      "origin": "content/smart-video",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.374791",
+      "last_updated": "2026-07-22T18:45:25.681823"
+    },
+    {
+      "name": "trendradar",
+      "description": ">",
+      "status": "active",
+      "origin": "content/trendradar",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.374791",
+      "last_updated": "2026-07-22T18:45:25.681823"
+    },
+    {
+      "name": "unified-search",
+      "description": ">",
+      "status": "active",
+      "origin": "content/unified-search",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.375941",
+      "last_updated": "2026-07-22T18:45:25.682997"
+    },
+    {
+      "name": "coze-workflow-api",
+      "description": ">",
+      "status": "active",
+      "origin": "coze/coze-workflow-api",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.377060",
+      "last_updated": "2026-07-22T18:45:25.684665"
+    },
+    {
+      "name": "browser-automation",
+      "description": ">",
+      "status": "active",
+      "origin": "devops/browser-automation",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.378076",
+      "last_updated": "2026-07-22T18:45:25.687466"
+    },
+    {
+      "name": "buyin-harvester",
+      "description": ">",
+      "status": "active",
+      "origin": "devops/buyin-harvester",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.379113",
+      "last_updated": "2026-07-22T18:45:25.687466"
+    },
+    {
+      "name": "cloudflare-tunnel-setup",
+      "description": ">",
+      "status": "active",
+      "origin": "devops/cloudflare-tunnel-setup",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.380141",
+      "last_updated": "2026-07-22T18:45:25.688785"
+    },
+    {
+      "name": "dev-pipeline-cli",
+      "description": ">",
+      "status": "active",
+      "origin": "devops/dev-pipeline-cli",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.380141",
+      "last_updated": "2026-07-22T18:45:25.689853"
+    },
+    {
+      "name": "helper-opencode-integration",
+      "description": ">",
+      "status": "active",
+      "origin": "devops/helper-opencode-integration",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.381211",
+      "last_updated": "2026-07-22T18:45:25.691035"
+    },
+    {
+      "name": "local-html-devtools",
+      "description": "",
+      "status": "active",
+      "origin": "devops/local-html-devtools",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.382479",
+      "last_updated": "2026-07-22T18:45:25.702985"
+    },
+    {
+      "name": "mijia-smart-home",
+      "description": "",
+      "status": "active",
+      "origin": "devops/mijia-smart-home",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.383480",
+      "last_updated": "2026-07-22T18:45:25.717179"
+    },
+    {
+      "name": "scrapling-scraper",
+      "description": ">-",
+      "status": "active",
+      "origin": "devops/scrapling-scraper",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.386247",
+      "last_updated": "2026-07-22T18:45:25.718232"
+    },
+    {
+      "name": "skill-description-rewriter",
+      "description": ">",
+      "status": "active",
+      "origin": "devops/skill-description-rewriter",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.386247",
+      "last_updated": "2026-07-22T18:45:25.719949"
+    },
+    {
+      "name": "skill-governance",
+      "description": ">",
+      "status": "active",
+      "origin": "devops/skill-governance",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.387435",
+      "last_updated": "2026-07-22T18:45:25.719949"
+    },
+    {
+      "name": "universal-scraper",
+      "description": "通用网站信息爬取——先问用户要多少条，按决策树逐层执行。Firecrawl→Tabbit(滚动+翻页+反检测)→Scrapling(隐身采集)→CloakBrowser(源码反爬)→Playwright+Vision(验证码)→computer-control(兜底)",
+      "status": "active",
+      "origin": "devops/universal-scraper",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.388481",
+      "last_updated": "2026-07-22T18:45:25.721157"
+    },
+    {
+      "name": "windows-disk-cleanup",
+      "description": "",
+      "status": "active",
+      "origin": "devops/windows-disk-cleanup",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.389531",
+      "last_updated": "2026-07-22T18:45:25.735714"
+    },
+    {
+      "name": "document-parsing",
+      "description": ">",
+      "status": "active",
+      "origin": "document-parsing/document-parsing",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.390590",
+      "last_updated": "2026-07-22T18:45:25.739106"
+    },
+    {
+      "name": "tech-architecture-doc",
+      "description": ">",
+      "status": "active",
+      "origin": "documentation/tech-architecture-doc",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.391758",
+      "last_updated": "2026-07-22T18:45:25.740825"
+    },
+    {
+      "name": "feishu-cli",
+      "description": ">",
+      "status": "active",
+      "origin": "feishu/feishu-cli",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.391758",
+      "last_updated": "2026-07-22T18:45:25.743734"
+    },
+    {
+      "name": "feishu-workflow",
+      "description": ">",
+      "status": "active",
+      "origin": "feishu/feishu-workflow",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.394541",
+      "last_updated": "2026-07-22T18:45:25.744265"
+    },
+    {
+      "name": "find-skills",
+      "description": ">",
+      "status": "active",
+      "origin": "find-skills/find-skills",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.395692",
+      "last_updated": "2026-07-22T18:45:25.745324"
+    },
+    {
+      "name": "frontend-design",
+      "description": "",
+      "status": "active",
+      "origin": "frontend-design/frontend-design",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.395692",
+      "last_updated": "2026-07-22T18:45:25.757325"
+    },
+    {
+      "name": "gorden-ppt-skill",
+      "description": ">",
+      "status": "active",
+      "origin": "gorden-ppt-skill/gorden-ppt-skill",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.396732",
+      "last_updated": "2026-07-22T18:45:25.757325"
+    },
+    {
+      "name": "heartflow-cognitive",
+      "description": ">",
+      "status": "active",
+      "origin": "heartflow-cognitive/heartflow-cognitive",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.397828",
+      "last_updated": "2026-07-22T18:45:25.759186"
+    },
+    {
+      "name": "hermes-email-auto-reply",
+      "description": ">",
+      "status": "active",
+      "origin": "hermes/hermes-email-auto-reply",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.399458",
+      "last_updated": "2026-07-22T18:45:25.760231"
+    },
+    {
+      "name": "hermes-memory-providers",
+      "description": ">",
+      "status": "active",
+      "origin": "hermes/hermes-memory-providers",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.399458",
+      "last_updated": "2026-07-22T18:45:25.762312"
+    },
+    {
+      "name": "three-agent-orchestrator",
+      "description": ">",
+      "status": "active",
+      "origin": "hermes/three-agent-orchestrator",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.401160",
+      "last_updated": "2026-07-22T18:45:25.763373"
+    },
+    {
+      "name": "hermes-studio-ops",
+      "description": ">-",
+      "status": "active",
+      "origin": "hermes-studio/hermes-studio-ops",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.401759",
+      "last_updated": "2026-07-22T18:45:25.765000"
+    },
+    {
+      "name": "jianying-editor-skill",
+      "description": "剪映 (JianYing) AI自动化剪辑的高级封装 API (JyWrapper)，提供开箱即用的 Python 接口，支持录屏、素材导入、字幕生成、Web 动效合成及项目导出。全面适配 MacOS (Apple Silicon/Intel) 与 Windows，支持 v5.9+ (draft_info.json) 架构、工程自修复、智能配音字幕及录屏变焦。",
+      "status": "active",
+      "origin": "jianying-editor-skill/jianying-editor-skill",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.402966",
+      "last_updated": "2026-07-22T18:45:25.765578"
+    },
+    {
+      "name": "local-rag-setup",
+      "description": "",
+      "status": "active",
+      "origin": "knowledge-management/local-rag-setup",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.404672",
+      "last_updated": "2026-07-22T18:45:25.777849"
+    },
+    {
+      "name": "lark-approval",
+      "description": ">",
+      "status": "active",
+      "origin": "lark-approval/lark-approval",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.405681",
+      "last_updated": "2026-07-22T18:45:25.792563"
+    },
+    {
+      "name": "lark-apps",
+      "description": ">",
+      "status": "active",
+      "origin": "lark-apps/lark-apps",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.408525",
+      "last_updated": "2026-07-22T18:45:25.795700"
+    },
+    {
+      "name": "lark-attendance",
+      "description": ">",
+      "status": "active",
+      "origin": "lark-attendance/lark-attendance",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.410133",
+      "last_updated": "2026-07-22T18:45:25.796799"
+    },
+    {
+      "name": "lark-base",
+      "description": ">",
+      "status": "active",
+      "origin": "lark-base/lark-base",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.410133",
+      "last_updated": "2026-07-22T18:45:25.797975"
+    },
+    {
+      "name": "lark-calendar",
+      "description": ">",
+      "status": "active",
+      "origin": "lark-calendar/lark-calendar",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.411784",
+      "last_updated": "2026-07-22T18:45:25.798584"
+    },
+    {
+      "name": "lark-contact",
+      "description": ">",
+      "status": "active",
+      "origin": "lark-contact/lark-contact",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.412912",
+      "last_updated": "2026-07-22T18:45:25.810987"
+    },
+    {
+      "name": "lark-doc",
+      "description": ">",
+      "status": "active",
+      "origin": "lark-doc/lark-doc",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.413908",
+      "last_updated": "2026-07-22T18:45:25.813128"
+    },
+    {
+      "name": "lark-drive",
+      "description": ">",
+      "status": "active",
+      "origin": "lark-drive/lark-drive",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.415507",
+      "last_updated": "2026-07-22T18:45:25.815386"
+    },
+    {
+      "name": "lark-event",
+      "description": ">",
+      "status": "active",
+      "origin": "lark-event/lark-event",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.416145",
+      "last_updated": "2026-07-22T18:45:25.816561"
+    },
+    {
+      "name": "lark-im",
+      "description": ">",
+      "status": "active",
+      "origin": "lark-im/lark-im",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.416145",
+      "last_updated": "2026-07-22T18:45:25.817668"
+    },
+    {
+      "name": "lark-mail",
+      "description": ">",
+      "status": "active",
+      "origin": "lark-mail/lark-mail",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.418019",
+      "last_updated": "2026-07-22T18:45:25.820409"
+    },
+    {
+      "name": "lark-markdown",
+      "description": ">",
+      "status": "active",
+      "origin": "lark-markdown/lark-markdown",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.426886",
+      "last_updated": "2026-07-22T18:45:25.822015"
+    },
+    {
+      "name": "lark-minutes",
+      "description": "飞书妙记：搜索妙记、查看妙记基础信息、下载/上传音视频、读取或编辑妙记的产物内容、改标题、替换说话人/关键词、申请妙记查看/编辑权限。当给出minute_token、本地音视频文件，要查/改/转妙记产物，或用户明确要主动申请妙记权限时使用；本地音视频转纪要/逐字稿优先走本 skill，不要用 ffmpeg/whisper 本地转写。不负责：获取会议关联妙记，或仅按自然语言标题定位纪要",
+      "status": "active",
+      "origin": "lark-minutes/lark-minutes",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.428151",
+      "last_updated": "2026-07-22T18:45:25.822015"
+    },
+    {
+      "name": "lark-note",
+      "description": ">",
+      "status": "active",
+      "origin": "lark-note/lark-note",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.429220",
+      "last_updated": "2026-07-22T18:45:25.825062"
+    },
+    {
+      "name": "lark-okr",
+      "description": ">",
+      "status": "active",
+      "origin": "lark-okr/lark-okr",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.430369",
+      "last_updated": "2026-07-22T18:45:25.826625"
+    },
+    {
+      "name": "lark-openapi-explorer",
+      "description": ">",
+      "status": "active",
+      "origin": "lark-openapi-explorer/lark-openapi-explorer",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.432513",
+      "last_updated": "2026-07-22T18:45:25.827190"
+    },
+    {
+      "name": "lark-shared",
+      "description": "Use for lark-cli setup/auth tasks: auth login/status/logout, user vs bot identity, business-domain permissions (--domain, including all/docs/drive), missing scopes, revoking authorization, or handling _notice JSON.",
+      "status": "active",
+      "origin": "lark-shared/lark-shared",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.433584",
+      "last_updated": "2026-07-22T18:45:25.829278"
+    },
+    {
+      "name": "lark-sheets",
+      "description": "飞书电子表格：创建和操作电子表格。支持创建表格、管理工作表与行列结构（增删/合并/调整尺寸/隐藏/冻结）、读写单元格（值/公式/样式/批注/单元格图片）、查找替换、多操作原子批量更新，以及图表、透视表、条件格式、筛选器、迷你图、浮动图片等对象的创建与维护。当用户需要创建电子表格、管理工作表、批量读写或编辑数据、统计汇总与可视化、表格美化、公式计算（含 Excel 公式迁移）、金融/财务建模（DCF、三张表、预算、Sensitivity 等）等任务时使用。若用户是想按名称或关键词搜索云空间（云盘/云存储）里的表格文件，请改用 lark-drive 的 drive +search 先定位资源。当用户给出 doubao.com 的 /sheets/ URL/token 时，也应直接使用本 skill，不要因为域名不是飞书而回退到 WebFetch；路由依据是 URL 路径模式和 token，而不是域名。",
+      "status": "active",
+      "origin": "lark-sheets/lark-sheets",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.434848",
+      "last_updated": "2026-07-22T18:45:25.832106"
+    },
+    {
+      "name": "lark-skill-maker",
+      "description": ">",
+      "status": "active",
+      "origin": "lark-skill-maker/lark-skill-maker",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.436124",
+      "last_updated": "2026-07-22T18:45:25.833298"
+    },
+    {
+      "name": "lark-slides",
+      "description": "飞书幻灯片：创建和编辑幻灯片。创建演示文稿、读取幻灯片内容、管理幻灯片页面（创建、删除、读取、局部替换）。当用户需要创建或编辑幻灯片、读取或修改单个页面时使用。当用户给出 doubao.com 的 /slides/ URL/token 时，也应直接使用本 skill，不要因为域名不是飞书而回退到 WebFetch；路由依据是 URL 路径模式和 token，而不是域名。不负责：云文档内容编辑（走 lark-doc）、云文档里的独立画板对象（走 lark-whiteboard）、上传或下载普通文件（走 lark-drive）。",
+      "status": "active",
+      "origin": "lark-slides/lark-slides",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.436720",
+      "last_updated": "2026-07-22T18:45:25.835626"
+    },
+    {
+      "name": "lark-task",
+      "description": ">",
+      "status": "active",
+      "origin": "lark-task/lark-task",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.437861",
+      "last_updated": "2026-07-22T18:45:25.837040"
+    },
+    {
+      "name": "lark-vc",
+      "description": ">",
+      "status": "active",
+      "origin": "lark-vc/lark-vc",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.439887",
+      "last_updated": "2026-07-22T18:45:25.838253"
+    },
+    {
+      "name": "lark-vc-agent",
+      "description": ">",
+      "status": "active",
+      "origin": "lark-vc-agent/lark-vc-agent",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.441480",
+      "last_updated": "2026-07-22T18:45:25.839987"
+    },
+    {
+      "name": "lark-whiteboard",
+      "description": ">",
+      "status": "active",
+      "origin": "lark-whiteboard/lark-whiteboard",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.442834",
+      "last_updated": "2026-07-22T18:45:25.853609"
+    },
+    {
+      "name": "lark-wiki",
+      "description": "飞书知识库：管理知识空间、空间成员和文档节点。创建和查询知识空间、查看和管理空间成员、管理节点层级结构、在知识库中组织文档和快捷方式。当用户需要在知识库中查找或创建文档、浏览知识空间结构、查看或管理空间成员、移动或复制节点时使用。当用户给出 doubao.com 的 /wiki/ URL/token 时，也应直接使用本 skill，不要因为域名不是飞书而回退到 WebFetch；路由依据是 URL 路径模式和 token，而不是域名。不负责：上传文件到知识库节点下（走 lark-drive）、编辑文档/表格/Base 内容（走 lark-doc / lark-sheets / lark-base）。",
+      "status": "active",
+      "origin": "lark-wiki/lark-wiki",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.442834",
+      "last_updated": "2026-07-22T18:45:25.855661"
+    },
+    {
+      "name": "lark-workflow-meeting-summary",
+      "description": ">",
+      "status": "active",
+      "origin": "lark-workflow-meeting-summary/lark-workflow-meeting-summary",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.445610",
+      "last_updated": "2026-07-22T18:45:25.856822"
+    },
+    {
+      "name": "lark-workflow-standup-report",
+      "description": ">",
+      "status": "active",
+      "origin": "lark-workflow-standup-report/lark-workflow-standup-report",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.447228",
+      "last_updated": "2026-07-22T18:45:25.857978"
+    },
+    {
+      "name": "libtv-cli",
+      "description": "",
+      "status": "active",
+      "origin": "libtv-cli/libtv-cli",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.448950",
+      "last_updated": "2026-07-22T18:45:25.871235"
+    },
+    {
+      "name": "libtv-feishu-auto",
+      "description": ">",
+      "status": "active",
+      "origin": "libtv-feishu-auto/libtv-feishu-auto",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.450002",
+      "last_updated": "2026-07-22T18:45:25.872363"
+    },
+    {
+      "name": "loop-engine",
+      "description": ">",
+      "status": "active",
+      "origin": "loop-engine/loop-engine",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.451135",
+      "last_updated": "2026-07-22T18:45:25.873547"
+    },
+    {
+      "name": "heartflow",
+      "description": ">",
+      "status": "active",
+      "origin": "mcp/heartflow",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.452972",
+      "last_updated": "2026-07-22T18:45:25.873547"
+    },
+    {
+      "name": "mcp-servers",
+      "description": ">-",
+      "status": "active",
+      "origin": "mcp-servers/mcp-servers",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.455079",
+      "last_updated": "2026-07-22T18:45:25.874730"
+    },
+    {
+      "name": "mt-paotui",
+      "description": "美团跑腿下单助手，通过直接调用地址提单等接口实现用户跑腿需求。支持场景：① 帮取送（A地取件送到B地，支持品类：餐饮、文件、生鲜、蛋糕、鲜花、数码、服饰、快递、五金、汽配等）② 帮买（代购商品）③ 帮取号（餐厅取号、医院挂号、其他取号）④ 帮搬装/帮扔杂物/其他帮忙（骑手到指定地址帮忙）。触发词：跑腿、下跑腿单、美团跑腿、同城配送、取号、挂号、排号、排队、帮搬、帮买、帮扔、帮忙、扔垃圾、寄文件、叫骑手、骑手帮忙、送东西、帮取、配送、帮送、买东西。",
+      "status": "active",
+      "origin": "mt-paotui/mt-paotui",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.456123",
+      "last_updated": "2026-07-22T18:45:25.875846"
+    },
+    {
+      "name": "open-websearch",
+      "description": ">",
+      "status": "active",
+      "origin": "open-websearch/open-websearch",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.457194",
+      "last_updated": "2026-07-22T18:45:25.876884"
+    },
+    {
+      "name": "orchestrator-loop",
+      "description": ">",
+      "status": "active",
+      "origin": "orchestrator-loop/orchestrator-loop",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.458343",
+      "last_updated": "2026-07-22T18:45:25.876884"
+    },
+    {
+      "name": "ab-test-analysis",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/ab-test-analysis",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.459496",
+      "last_updated": "2026-07-22T18:45:25.891293"
+    },
+    {
+      "name": "analyze-feature-requests",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/analyze-feature-requests",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.460099",
+      "last_updated": "2026-07-22T18:45:25.905239"
+    },
+    {
+      "name": "ansoff-matrix",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/ansoff-matrix",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.461323",
+      "last_updated": "2026-07-22T18:45:25.906447"
+    },
+    {
+      "name": "beachhead-segment",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/beachhead-segment",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.462877",
+      "last_updated": "2026-07-22T18:45:25.908161"
+    },
+    {
+      "name": "brainstorm-experiments-existing",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/brainstorm-experiments-existing",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.464023",
+      "last_updated": "2026-07-22T18:45:25.920420"
+    },
+    {
+      "name": "brainstorm-experiments-new",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/brainstorm-experiments-new",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.465147",
+      "last_updated": "2026-07-22T18:45:25.934475"
+    },
+    {
+      "name": "brainstorm-ideas-existing",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/brainstorm-ideas-existing",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.466196",
+      "last_updated": "2026-07-22T18:45:25.948358"
+    },
+    {
+      "name": "brainstorm-ideas-new",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/brainstorm-ideas-new",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.466196",
+      "last_updated": "2026-07-22T18:45:25.960736"
+    },
+    {
+      "name": "brainstorm-okrs",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/brainstorm-okrs",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.472269",
+      "last_updated": "2026-07-22T18:45:25.961752"
+    },
+    {
+      "name": "business-model",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/business-model",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.473918",
+      "last_updated": "2026-07-22T18:45:25.963989"
+    },
+    {
+      "name": "cohort-analysis",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/cohort-analysis",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.473918",
+      "last_updated": "2026-07-22T18:45:25.965179"
+    },
+    {
+      "name": "competitive-battlecard",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/competitive-battlecard",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.475216",
+      "last_updated": "2026-07-22T18:45:25.980902"
+    },
+    {
+      "name": "competitor-analysis",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/competitor-analysis",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.475216",
+      "last_updated": "2026-07-22T18:45:25.980902"
+    },
+    {
+      "name": "create-prd",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/create-prd",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.476768",
+      "last_updated": "2026-07-22T18:45:25.982130"
+    },
+    {
+      "name": "customer-journey-map",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/customer-journey-map",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.477881",
+      "last_updated": "2026-07-22T18:45:25.995614"
+    },
+    {
+      "name": "draft-nda",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/draft-nda",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.478920",
+      "last_updated": "2026-07-22T18:45:25.995614"
+    },
+    {
+      "name": "dummy-dataset",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/dummy-dataset",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.479996",
+      "last_updated": "2026-07-22T18:45:25.996646"
+    },
+    {
+      "name": "grammar-check",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/grammar-check",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.481631",
+      "last_updated": "2026-07-22T18:45:25.996646"
+    },
+    {
+      "name": "growth-loops",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/growth-loops",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.482195",
+      "last_updated": "2026-07-22T18:45:25.998972"
+    },
+    {
+      "name": "gtm-motions",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/gtm-motions",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.483280",
+      "last_updated": "2026-07-22T18:45:26.000586"
+    },
+    {
+      "name": "gtm-strategy",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/gtm-strategy",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.485006",
+      "last_updated": "2026-07-22T18:45:26.000586"
+    },
+    {
+      "name": "ideal-customer-profile",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/ideal-customer-profile",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.485006",
+      "last_updated": "2026-07-22T18:45:26.002308"
+    },
+    {
+      "name": "identify-assumptions-existing",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/identify-assumptions-existing",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.486205",
+      "last_updated": "2026-07-22T18:45:26.015507"
+    },
+    {
+      "name": "identify-assumptions-new",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/identify-assumptions-new",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.487809",
+      "last_updated": "2026-07-22T18:45:26.032302"
+    },
+    {
+      "name": "intended-vs-implemented",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/intended-vs-implemented",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.488344",
+      "last_updated": "2026-07-22T18:45:26.033518"
+    },
+    {
+      "name": "interview-script",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/interview-script",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.489361",
+      "last_updated": "2026-07-22T18:45:26.048169"
+    },
+    {
+      "name": "job-stories",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/job-stories",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.490425",
+      "last_updated": "2026-07-22T18:45:26.048169"
+    },
+    {
+      "name": "lean-canvas",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/lean-canvas",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.490502",
+      "last_updated": "2026-07-22T18:45:26.049899"
+    },
+    {
+      "name": "market-segments",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/market-segments",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.492070",
+      "last_updated": "2026-07-22T18:45:26.049899"
+    },
+    {
+      "name": "market-sizing",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/market-sizing",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.492070",
+      "last_updated": "2026-07-22T18:45:26.051498"
+    },
+    {
+      "name": "marketing-ideas",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/marketing-ideas",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.492070",
+      "last_updated": "2026-07-22T18:45:26.052063"
+    },
+    {
+      "name": "metrics-dashboard",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/metrics-dashboard",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.493722",
+      "last_updated": "2026-07-22T18:45:26.066737"
+    },
+    {
+      "name": "monetization-strategy",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/monetization-strategy",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.494928",
+      "last_updated": "2026-07-22T18:45:26.067871"
+    },
+    {
+      "name": "north-star-metric",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/north-star-metric",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.495461",
+      "last_updated": "2026-07-22T18:45:26.067871"
+    },
+    {
+      "name": "opportunity-solution-tree",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/opportunity-solution-tree",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.496558",
+      "last_updated": "2026-07-22T18:45:26.082947"
+    },
+    {
+      "name": "outcome-roadmap",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/outcome-roadmap",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.496558",
+      "last_updated": "2026-07-22T18:45:26.083535"
+    },
+    {
+      "name": "pestle-analysis",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/pestle-analysis",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.498749",
+      "last_updated": "2026-07-22T18:45:26.084983"
+    },
+    {
+      "name": "porters-five-forces",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/porters-five-forces",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.498749",
+      "last_updated": "2026-07-22T18:45:26.086057"
+    },
+    {
+      "name": "positioning-ideas",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/positioning-ideas",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.499848",
+      "last_updated": "2026-07-22T18:45:26.087269"
+    },
+    {
+      "name": "pre-mortem",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/pre-mortem",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.501036",
+      "last_updated": "2026-07-22T18:45:26.087269"
+    },
+    {
+      "name": "pricing-strategy",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/pricing-strategy",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.501616",
+      "last_updated": "2026-07-22T18:45:26.100207"
+    },
+    {
+      "name": "prioritization-frameworks",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/prioritization-frameworks",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.502687",
+      "last_updated": "2026-07-22T18:45:26.112795"
+    },
+    {
+      "name": "prioritize-assumptions",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/prioritize-assumptions",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.504822",
+      "last_updated": "2026-07-22T18:45:26.127579"
+    },
+    {
+      "name": "prioritize-features",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/prioritize-features",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.506015",
+      "last_updated": "2026-07-22T18:45:26.140562"
+    },
+    {
+      "name": "privacy-policy",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/privacy-policy",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.507013",
+      "last_updated": "2026-07-22T18:45:26.141801"
+    },
+    {
+      "name": "product-name",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/product-name",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.507013",
+      "last_updated": "2026-07-22T18:45:26.142886"
+    },
+    {
+      "name": "product-strategy",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/product-strategy",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.508632",
+      "last_updated": "2026-07-22T18:45:26.142886"
+    },
+    {
+      "name": "product-vision",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/product-vision",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.509792",
+      "last_updated": "2026-07-22T18:45:26.144631"
+    },
+    {
+      "name": "release-notes",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/release-notes",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.510375",
+      "last_updated": "2026-07-22T18:45:26.158813"
+    },
+    {
+      "name": "retro",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/retro",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.511495",
+      "last_updated": "2026-07-22T18:45:26.172337"
+    },
+    {
+      "name": "review-resume",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/review-resume",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.512032",
+      "last_updated": "2026-07-22T18:45:26.173553"
+    },
+    {
+      "name": "sentiment-analysis",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/sentiment-analysis",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.513129",
+      "last_updated": "2026-07-22T18:45:26.174750"
+    },
+    {
+      "name": "shipping-artifacts",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/shipping-artifacts",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.513129",
+      "last_updated": "2026-07-22T18:45:26.175776"
+    },
+    {
+      "name": "sprint-plan",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/sprint-plan",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.515314",
+      "last_updated": "2026-07-22T18:45:26.191094"
+    },
+    {
+      "name": "sql-queries",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/sql-queries",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.515314",
+      "last_updated": "2026-07-22T18:45:26.192102"
+    },
+    {
+      "name": "stakeholder-map",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/stakeholder-map",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.516379",
+      "last_updated": "2026-07-22T18:45:26.205823"
+    },
+    {
+      "name": "startup-canvas",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/startup-canvas",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.517499",
+      "last_updated": "2026-07-22T18:45:26.205823"
+    },
+    {
+      "name": "strategy-red-team",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/strategy-red-team",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.517499",
+      "last_updated": "2026-07-22T18:45:26.207611"
+    },
+    {
+      "name": "summarize-interview",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/summarize-interview",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.519243",
+      "last_updated": "2026-07-22T18:45:26.224319"
+    },
+    {
+      "name": "summarize-meeting",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/summarize-meeting",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.520361",
+      "last_updated": "2026-07-22T18:45:26.225531"
+    },
+    {
+      "name": "swot-analysis",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/swot-analysis",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.521608",
+      "last_updated": "2026-07-22T18:45:26.225531"
+    },
+    {
+      "name": "test-scenarios",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/test-scenarios",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.527844",
+      "last_updated": "2026-07-22T18:45:26.227429"
+    },
+    {
+      "name": "user-personas",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/user-personas",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.528909",
+      "last_updated": "2026-07-22T18:45:26.228558"
+    },
+    {
+      "name": "user-segmentation",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/user-segmentation",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.530072",
+      "last_updated": "2026-07-22T18:45:26.229633"
+    },
+    {
+      "name": "user-stories",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/user-stories",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.530072",
+      "last_updated": "2026-07-22T18:45:26.230750"
+    },
+    {
+      "name": "value-prop-statements",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/value-prop-statements",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.531170",
+      "last_updated": "2026-07-22T18:45:26.230750"
+    },
+    {
+      "name": "value-proposition",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/value-proposition",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.532229",
+      "last_updated": "2026-07-22T18:45:26.231999"
+    },
+    {
+      "name": "wwas",
+      "description": ">",
+      "status": "active",
+      "origin": "pm-skills/wwas",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.551604",
+      "last_updated": "2026-07-22T18:45:26.231999"
+    },
+    {
+      "name": "product-lifecycle-management",
+      "description": ">",
+      "status": "active",
+      "origin": "product-lifecycle-management/product-lifecycle-management",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.553003",
+      "last_updated": "2026-07-22T18:45:26.234424"
+    },
+    {
+      "name": "bailian-cli",
+      "description": ">",
+      "status": "active",
+      "origin": "productivity/bailian-cli",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.554707",
+      "last_updated": "2026-07-22T18:45:26.234424"
+    },
+    {
+      "name": "coze-workflow-automation",
+      "description": ">",
+      "status": "active",
+      "origin": "productivity/coze-workflow-automation",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.555747",
+      "last_updated": "2026-07-22T18:45:26.234424"
+    },
+    {
+      "name": "ppt-generation",
+      "description": ">",
+      "status": "active",
+      "origin": "productivity/ppt-generation",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.556857",
+      "last_updated": "2026-07-22T18:45:26.234424"
+    },
+    {
+      "name": "ppt-master",
+      "description": ">",
+      "status": "active",
+      "origin": "productivity/ppt-master",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.557940",
+      "last_updated": "2026-07-22T18:45:26.236888"
+    },
+    {
+      "name": "prompt-optimizer",
+      "description": ">",
+      "status": "active",
+      "origin": "productivity/prompt-optimizer",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.559175",
+      "last_updated": "2026-07-22T18:45:26.237887"
+    },
+    {
+      "name": "prompt-workflow",
+      "description": ">-",
+      "status": "active",
+      "origin": "productivity/prompt-workflow",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.559175",
+      "last_updated": "2026-07-22T18:45:26.238940"
+    },
+    {
+      "name": "tool-setup-research",
+      "description": "",
+      "status": "active",
+      "origin": "research/tool-setup-research",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.560368",
+      "last_updated": "2026-07-22T18:45:26.251121"
+    },
+    {
+      "name": "search-router",
+      "description": ">",
+      "status": "active",
+      "origin": "search-router/search-router",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.561988",
+      "last_updated": "2026-07-22T18:45:26.253040"
+    },
+    {
+      "name": "sensenova-sn-da-excel-workflow",
+      "description": "Excel 数据分析多步编排器。覆盖：(1) 读取多 Sheet Excel 文件并统计行数，(2) 大文件检测（≥10k 行自动 Parquet 优化），(3) 数据清洗（缺失值、文本标准化、无效字符），(4) 条件筛选与分类提取，(5) 跨 Sheet 统计聚合，(6) 导出 Excel/CSV 并提供下载链接。覆盖从数据读取到报告生成全流程，按步骤编排 capability 子 skill。**遇到以下任一情况就主动使用本 skill，不要自行写几行 pandas 就回答**：①用户出现触发词：Excel 分析 / 表格分析 / 数据分析 / 数据清洗 / 数据统计 / 数据筛选 / 数据可视化 / 数据导出 / 汇总统计 / 透视表 / 分组统计 / 交叉分析 / 趋势分析 / 对比分析 / 异常值检测 / 去重 / 缺失值处理 / Excel 报告 / 生成报表 / analyze Excel / data analysis / data cleaning / pivot table；②用户上传或指定了 .xlsx / .xls / .csv 文件并要求分析、清洗、统计或可视",
+      "status": "active",
+      "origin": "sensenova-sn-da-excel-workflow/sensenova-sn-da-excel-workflow",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.562536",
+      "last_updated": "2026-07-22T18:45:26.254020"
+    },
+    {
+      "name": "sensenova-sn-da-image-caption",
+      "description": "图片理解与数据提取 skill。当图片文件（.png/.jpg/.jpeg/.gif/.webp/.bmp）是主要输入且用户需要理解、提取数据或分析图片内容时使用。提供预配置的 caption 脚本（scripts/caption.py），通过 vision 模型将图片转为文本描述，无需额外配置 API Key。覆盖：(1) 通过 scripts/caption.py 对图表/表格/截图/流程图进行 caption，(2) 将 caption 文本解析为结构化 DataFrame，(3) 基于提取数据重新生成可视化图表，(4) 导出为 Excel/CSV。**遇到以下任一情况就主动使用本 skill，不要自行猜测图片内容**：①用户出现触发词：图片分析 / 图表提取 / 表格识别 / OCR / 图片描述 / 截图分析 / 图表数据 / 提取图片中的数据 / 图片转表格 / 识别图片 / image caption / extract data from image / chart analysis / table OCR；②用户上传或指定了图片文件（.png / .jpg / .jp",
+      "status": "active",
+      "origin": "sensenova-sn-da-image-caption/sensenova-sn-da-image-caption",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.563614",
+      "last_updated": "2026-07-22T18:45:26.254511"
+    },
+    {
+      "name": "sensenova-sn-da-large-file-analysis",
+      "description": "万行以上 Excel 数据集的高性能分析引擎。提供 openpyxl read_only 流式读取（iter_rows 支持 10 万行以上）、Parquet 转换加速、内存优化、分块处理和大文件写入模式。**遇到以下任一情况就主动使用本 skill**：①数据行数 ≥ 10k（由 sn-da-excel-workflow 的行数评估步骤触发）；②用户出现触发词：大文件 / 大数据量 / 性能优化 / 内存不足 / OOM / 百万行 / 十万行 / 流式读取 / Parquet / 分块处理 / large file / big data / streaming read / chunked processing；③直接使用 pd.read_excel() 导致超时或内存溢出；④用户明确要求对大规模数据集进行高性能处理。仅不用于：小于 10k 行的常规 Excel 分析（使用 sn-da-excel-workflow 即可）。",
+      "status": "active",
+      "origin": "sensenova-sn-da-large-file-analysis/sensenova-sn-da-large-file-analysis",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.564743",
+      "last_updated": "2026-07-22T18:45:26.255564"
+    },
+    {
+      "name": "sensenova-sn-da-non-spreadsheet-analysis",
+      "description": "Word / PDF / PPT 文档解析与数据分析引擎。覆盖三类文件格式的全量提取、表格数值化、图表理解与跨文档汇总分析。**遇到以下任一情况就主动使用本 skill**：①用户上传或指定了 .docx / .doc / .pdf / .pptx / .ppt 文件并要求分析、提取或统计其中内容；②用户出现触发词：Word分析 / PDF解析 / PPT提取 / 文档分析 / 报告解析 / 幻灯片分析 / 发票提取 / 合同分析 / 文档统计 / 错别字 / 语病 / 字号检查 / 简历分析 / 多文档对比；③任务涉及从文档中提取表格、数值、图表、格式（颜色/高亮/字号）、组织架构、时间线等结构化信息。仅不用于：Excel/CSV 数据分析（使用 sn-da-excel-workflow）、纯图片分析（使用 sn-da-image-caption）。",
+      "status": "active",
+      "origin": "sensenova-sn-da-non-spreadsheet-analysis/sensenova-sn-da-non-spreadsheet-analysis",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.564743",
+      "last_updated": "2026-07-22T18:45:26.256706"
+    },
+    {
+      "name": "sensenova-sn-deep-research",
+      "description": "用于用户请求深度研究、系统性研究、竞品分析、方案对比、趋势分析或事实核查时。**遇到以下任一情况就主动使用本 skill，不要自行搜几条就回答**：①用户出现触发词：深度研究 / 深度调研 / 深入研究 / 全面研究 / 系统研究 / 调研 / 调查 / 尽调 / 行业研究 / 市场研究 / 竞品分析 / 政策研究 / 技术研究 / 趋势研究 / 事实核查 / 写一份研究报告 / 调研报告 / 深度报告 / research / deep research；②请求需要跨多来源取证、多维度对比、交叉验证才能给出可靠结论；③用户要求产出报告、白皮书、行业分析或尽调文档；④话题涉及最新政策/市场/产品/价格/法规，需要系统核查。明确要求核验来源的单点事实可走 quick；无核验要求的简单常识问答不使用。模糊或宽泛的\"研究/了解一下 X\"也优先触发。仅不用于：一句话摘要、已给定单一来源的整理、纯文字润色改写。",
+      "status": "active",
+      "origin": "sensenova-sn-deep-research/sensenova-sn-deep-research",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.565771",
+      "last_updated": "2026-07-22T18:45:26.259075"
+    },
+    {
+      "name": "sensenova-sn-image-base",
+      "description": ">",
+      "status": "active",
+      "origin": "sensenova-sn-image-base/sensenova-sn-image-base",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.566879",
+      "last_updated": "2026-07-22T18:45:26.261447"
+    },
+    {
+      "name": "sensenova-sn-image-doctor",
+      "description": ">",
+      "status": "active",
+      "origin": "sensenova-sn-image-doctor/sensenova-sn-image-doctor",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.568151",
+      "last_updated": "2026-07-22T18:45:26.262320"
+    },
+    {
+      "name": "sensenova-sn-image-imitate",
+      "description": ">",
+      "status": "active",
+      "origin": "sensenova-sn-image-imitate/sensenova-sn-image-imitate",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.569455",
+      "last_updated": "2026-07-22T18:45:26.264609"
+    },
+    {
+      "name": "sensenova-sn-image-resume",
+      "description": ">",
+      "status": "active",
+      "origin": "sensenova-sn-image-resume/sensenova-sn-image-resume",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.569455",
+      "last_updated": "2026-07-22T18:45:26.266455"
+    },
+    {
+      "name": "sensenova-sn-infographic",
+      "description": ">",
+      "status": "active",
+      "origin": "sensenova-sn-infographic/sensenova-sn-infographic",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.571102",
+      "last_updated": "2026-07-22T18:45:26.269676"
+    },
+    {
+      "name": "sensenova-sn-md-to-html-report",
+      "description": "将 Markdown 报告、研究笔记、行业分析、战略备忘录、技术白皮书、复盘、周报等长文档，重组并创作为有编辑判断、网页美感和证据秩序的自包含 HTML 专题页。用户要求“转成 HTML”“网页化报告”“美化报告”“做成专题页”“便于分享”“提升可读性/设计感”“把报告做成网页”时使用。必须先写 plan.md 再写 HTML，保留原文事实断言和结论强度，不套模板，不做机械 Markdown 转换。",
+      "status": "active",
+      "origin": "sensenova-sn-md-to-html-report/sensenova-sn-md-to-html-report",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.571102",
+      "last_updated": "2026-07-22T18:45:26.270645"
+    },
+    {
+      "name": "sensenova-sn-ppt-creative",
+      "description": ">",
+      "status": "active",
+      "origin": "sensenova-sn-ppt-creative/sensenova-sn-ppt-creative",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.572216",
+      "last_updated": "2026-07-22T18:45:26.271175"
+    },
+    {
+      "name": "sensenova-sn-ppt-doctor",
+      "description": ">",
+      "status": "active",
+      "origin": "sensenova-sn-ppt-doctor/sensenova-sn-ppt-doctor",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.573462",
+      "last_updated": "2026-07-22T18:45:26.272284"
+    },
+    {
+      "name": "sensenova-sn-ppt-entry",
+      "description": ">",
+      "status": "active",
+      "origin": "sensenova-sn-ppt-entry/sensenova-sn-ppt-entry",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.574567",
+      "last_updated": "2026-07-22T18:45:26.272410"
+    },
+    {
+      "name": "sensenova-sn-ppt-standard",
+      "description": ">",
+      "status": "active",
+      "origin": "sensenova-sn-ppt-standard/sensenova-sn-ppt-standard",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.575759",
+      "last_updated": "2026-07-22T18:45:26.274015"
+    },
+    {
+      "name": "sensenova-sn-prepare-citations",
+      "description": "用于终稿完成且脚注需要后处理时：去重 [^key] 引用，转换为 [N] 编号，并追加参考文献。",
+      "status": "active",
+      "origin": "sensenova-sn-prepare-citations/sensenova-sn-prepare-citations",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.575759",
+      "last_updated": "2026-07-22T18:45:26.275135"
+    },
+    {
+      "name": "sensenova-sn-report-format-discovery",
+      "description": "用于研究任务的最终呈现形式未知时。比较研究报告、学术论文、表格优先报表、决策备忘录或自定义形式，并用权威标准与真实范例支持推荐。",
+      "status": "active",
+      "origin": "sensenova-sn-report-format-discovery/sensenova-sn-report-format-discovery",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.576937",
+      "last_updated": "2026-07-22T18:45:26.276181"
+    },
+    {
+      "name": "sensenova-sn-research-report",
+      "description": "",
+      "status": "active",
+      "origin": "sensenova-sn-research-report/sensenova-sn-research-report",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.578062",
+      "last_updated": "2026-07-22T18:45:26.288113"
+    },
+    {
+      "name": "sensenova-sn-search-academic",
+      "description": "用于学术调研、论文精读、相关工作梳理、百科知识查询和引用链追溯。",
+      "status": "active",
+      "origin": "sensenova-sn-search-academic/sensenova-sn-search-academic",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.578598",
+      "last_updated": "2026-07-22T18:45:26.290019"
+    },
+    {
+      "name": "sensenova-sn-search-code",
+      "description": "用于查找代码示例、开源项目、GitHub Issue、技术问答、开发者讨论、HuggingFace 模型/数据集/Space。",
+      "status": "active",
+      "origin": "sensenova-sn-search-code/sensenova-sn-search-code",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.579661",
+      "last_updated": "2026-07-22T18:45:26.292082"
+    },
+    {
+      "name": "sensenova-sn-search-finance",
+      "description": "用于搜索金融市场、证券、上市公司基本面、价格、K 线、披露文件、财经新闻、A 股数据、港股或全球 ticker，可使用 yfinance、mootdx、API 脚本或 browser-use。",
+      "status": "active",
+      "origin": "sensenova-sn-search-finance/sensenova-sn-search-finance",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.580233",
+      "last_updated": "2026-07-22T18:45:26.292082"
+    },
+    {
+      "name": "sensenova-sn-search-image",
+      "description": ">",
+      "status": "active",
+      "origin": "sensenova-sn-search-image/sensenova-sn-search-image",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.581366",
+      "last_updated": "2026-07-22T18:45:26.293737"
+    },
+    {
+      "name": "sensenova-sn-search-market-cn",
+      "description": "Use when researching China market, industry, macro, trade, procurement, listed-company disclosure, regulation, IP, healthcare, logistics, energy, environment, or industrial-operation information using free official sources with no registration, no API key, and no cryptocurrency data.",
+      "status": "active",
+      "origin": "sensenova-sn-search-market-cn/sensenova-sn-search-market-cn",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.582407",
+      "last_updated": "2026-07-22T18:45:26.294322"
+    },
+    {
+      "name": "sensenova-sn-search-social-cn",
+      "description": "用于搜索中文社交平台。脚本入口覆盖 B站视频、知乎问答和抖音视频；小红书、微博当前没有脚本入口，只能通过 browser-use / 公开网页兜底。",
+      "status": "active",
+      "origin": "sensenova-sn-search-social-cn/sensenova-sn-search-social-cn",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.583684",
+      "last_updated": "2026-07-22T18:45:26.295354"
+    },
+    {
+      "name": "sensenova-sn-search-social-en",
+      "description": "用于搜索英文社交平台，包括 Reddit 帖子、Twitter/X 推文和 YouTube 视频。",
+      "status": "active",
+      "origin": "sensenova-sn-search-social-en/sensenova-sn-search-social-en",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.583684",
+      "last_updated": "2026-07-22T18:45:26.296441"
+    },
+    {
+      "name": "sensenova-sn-search-social-media",
+      "description": "搜索社区、社媒、新闻热点、百科趋势、开发者生态和技术讨论时使用。",
+      "status": "active",
+      "origin": "sensenova-sn-search-social-media/sensenova-sn-search-social-media",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.585302",
+      "last_updated": "2026-07-22T18:45:26.297627"
+    },
+    {
+      "name": "sensenova-sn-search-year-report",
+      "description": "用于搜索免费官方年报、年度报告、定期报告、上市公司披露文件、债券发行人报告和海外公司年度账目。",
+      "status": "active",
+      "origin": "sensenova-sn-search-year-report/sensenova-sn-search-year-report",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.586465",
+      "last_updated": "2026-07-22T18:45:26.298217"
+    },
+    {
+      "name": "sensenova-sn-update",
+      "description": ">",
+      "status": "active",
+      "origin": "sensenova-sn-update/sensenova-sn-update",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.587637",
+      "last_updated": "2026-07-22T18:45:26.300025"
+    },
+    {
+      "name": "smart-ppt",
+      "description": ">",
+      "status": "active",
+      "origin": "smart-ppt/smart-ppt",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.588720",
+      "last_updated": "2026-07-22T18:45:26.301177"
+    },
+    {
+      "name": "step-annotate",
+      "description": ">",
+      "status": "active",
+      "origin": "step-annotate/step-annotate",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.589761",
+      "last_updated": "2026-07-22T18:45:26.302349"
+    },
+    {
+      "name": "uiux-banner-design",
+      "description": ">",
+      "status": "active",
+      "origin": "uiux-banner-design/uiux-banner-design",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.590793",
+      "last_updated": "2026-07-22T18:45:26.303491"
+    },
+    {
+      "name": "uiux-brand",
+      "description": ">",
+      "status": "active",
+      "origin": "uiux-brand/uiux-brand",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.591383",
+      "last_updated": "2026-07-22T18:45:26.303491"
+    },
+    {
+      "name": "uiux-design",
+      "description": ">",
+      "status": "active",
+      "origin": "uiux-design/uiux-design",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.598175",
+      "last_updated": "2026-07-22T18:45:26.305638"
+    },
+    {
+      "name": "uiux-design-system",
+      "description": ">",
+      "status": "active",
+      "origin": "uiux-design-system/uiux-design-system",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.599246",
+      "last_updated": "2026-07-22T18:45:26.306803"
+    },
+    {
+      "name": "uiux-slides",
+      "description": ">",
+      "status": "active",
+      "origin": "uiux-slides/uiux-slides",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.600248",
+      "last_updated": "2026-07-22T18:45:26.306803"
+    },
+    {
+      "name": "uiux-ui-styling",
+      "description": ">",
+      "status": "active",
+      "origin": "uiux-ui-styling/uiux-ui-styling",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.601428",
+      "last_updated": "2026-07-22T18:45:26.308956"
+    },
+    {
+      "name": "uiux-ui-ux-pro-max",
+      "description": "",
+      "status": "active",
+      "origin": "uiux-ui-ux-pro-max/uiux-ui-ux-pro-max",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.601428",
+      "last_updated": "2026-07-22T18:45:26.321053"
+    },
+    {
+      "name": "video-montage-pipeline",
+      "description": ">",
+      "status": "active",
+      "origin": "video/video-montage-pipeline",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.604377",
+      "last_updated": "2026-07-22T18:45:26.322139"
+    },
+    {
+      "name": "video-montage-router",
+      "description": ">",
+      "status": "active",
+      "origin": "video/video-montage-router",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.605487",
+      "last_updated": "2026-07-22T18:45:26.322139"
+    },
+    {
+      "name": "video-use",
+      "description": ">",
+      "status": "active",
+      "origin": "video-use/video-use",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.606513",
+      "last_updated": "2026-07-22T18:45:26.323346"
+    },
+    {
+      "name": "xhs-cli",
+      "description": ">",
+      "status": "active",
+      "origin": "xhs-cli/xhs-cli",
+      "optimized": true,
+      "modification_count": 1,
+      "created": "2026-07-22T18:45:05.606513",
+      "last_updated": "2026-07-22T18:45:26.337358"
+    }
+  ]
+}
