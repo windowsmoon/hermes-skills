@@ -1,0 +1,16 @@
+# Safe scheduled GitHub sync
+
+HermesGitHubSync runs the deployed `D:/hermes-data/task-maintenance/github-sync.ps1` at its existing daily schedule. The versioned implementation is `scripts/github-sync.ps1`. Legacy Python/batch entry points delegate to the deployed script and propagate its exit code.
+
+## Approved scope
+Only these exact files are eligible: `autosync.py`, `sync_to_github.bat`, `scripts/github-sync.ps1`, `scripts/github-sync.md`. No skills, profiles, config, credentials, archives, logs, or other scripts are uploaded. Every eligible file must match its SHA-256 in the local, deliberately unversioned `github-sync-approved.json` (version 1, files object mapping exact paths to uppercase hashes). No automatic approval updates are performed. Changes require human/agent content review, scanner verification, then explicit local hash approval; expanding scope requires separate authorization.
+
+## Safety and Git semantics
+Snapshots of approved UTF-8 text are scanned for private keys, common tokens, sensitive assignments, credential URLs, JWTs and high-entropy strings. Binary, large files and reparse points are rejected. Pattern scanning cannot prove arbitrary files contain no secrets: exact reviewed hashes are the primary publishing boundary.
+
+Explicit bundled Git and Windows OpenSSH use batch mode, strict host-key checking and a connection timeout. The origin fetch/push URLs must exactly equal the intended SSH repository. No credentials or raw Git output are logged. Missing executables, changed approvals, remote errors or divergent local history fail closed.
+
+The script locks but never changes the user's index. Overlap with approved staged paths is blocked. It builds a separate temporary index from remote `main`, writes only approved snapshot blobs without filters, then creates a commit whose sole parent is remote `main`. Hooks/signing are disabled for this unattended plumbing operation. Local HEAD must already be an ancestor of remote main. No local commits are uploaded, no pull/reset/stash occurs, and local HEAD is intentionally not advanced. Thus the existing local master and its staged deletion stay intact; maintenance files can remain untracked locally even after publication. Fast-forward-only push uses one explicit main refspec, no tags/force/mirror, and remote commit identity is checked afterward. A concurrent remote update rejects the push; the next run reconstructs from the newer remote tip. Repeated successful runs produce no additional commits.
+
+## Operations
+`-SelfTest` tests synthetic secret fixtures without network or repository writes. `-CheckOnly` validates scope/hashes/scanner and SSH remote main without committing or pushing. Default execution publishes only changed approved files. The local log is `D:/hermes-data/task-maintenance/github-sync.log`. Exit codes: 0 success/no changes; 10 prerequisite; 20 safety/secret; 30 network/push/remote; 40 Git object construction; 50 index lock/integrity; 60 missing or changed approval. Review the failing phase locally; never paste secret values into logs. After abnormal termination a stale `.git/index.lock` may remain: verify no Git/sync process owns it before manually removing it. No automatic stale-lock deletion is performed. Task remains interactive-user based and cannot run while that user is logged out.
